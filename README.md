@@ -19,14 +19,14 @@ OMP 没有官方 i18n，但 `dist/cli.js` 里的 UI 字符串在压缩后原样�
 
 ```powershell
 # Windows
-git clone https://github.com/<your-username>/omp-tui-zh.git
+git clone https://github.com/Soullqs/omp-tui-zh.git
 cd omp-tui-zh
 powershell -ExecutionPolicy Bypass -File install.ps1
 ```
 
 ```sh
 # macOS / Linux
-git clone https://github.com/<your-username>/omp-tui-zh.git
+git clone https://github.com/Soullqs/omp-tui-zh.git
 cd omp-tui-zh
 sh install.sh
 ```
