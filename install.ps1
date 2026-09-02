@@ -2,10 +2,10 @@
 # Run from the cloned omp-tui-zh directory:
 #   powershell -ExecutionPolicy Bypass -File install.ps1
 
-$home = $env:USERPROFILE
-$root = $PWD.Path  # must be run from the cloned repo
-$extDir = "$home\.omp\agent\extensions"
-$i18nDir = "$home\.omp\i18n"
+$userHome = $env:USERPROFILE
+$root = $PWD.Path
+$extDir = "$userHome\.omp\agent\extensions"
+$i18nDir = "$userHome\.omp\i18n"
 
 New-Item -ItemType Directory -Force -Path $extDir | Out-Null
 New-Item -ItemType Directory -Force -Path $i18nDir | Out-Null
